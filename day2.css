@@ -23,6 +23,7 @@ html, body {
     width: 20%;
     /* background-color: teal; */
     position: fixed;
+    border-radius: 20px;
    
 }
 .right{
@@ -31,6 +32,7 @@ html, body {
     background-color: whitesmoke;
     position: fixed;
     right:0;
+    border-radius: 20px;
 }
 .topnav{
     height:10vh;
@@ -258,6 +260,7 @@ html, body {
     /* background-color: pink; */
     position: fixed;
     top: 26%;
+    
 }
 .feed p{
     margin-left: 17px;
@@ -288,7 +291,7 @@ html, body {
 .post{
     position: relative;
     margin: 20px;
-    background-color: rgba(234, 234, 237, 0.675);
+    background-color: rgba(201, 201, 207, 0.675);
     width: 30vw;
     height: 50vh;
     border-radius: 20px;
