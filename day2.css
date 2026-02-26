@@ -255,7 +255,7 @@ html, body {
 .feed{
     height: calc(100vh - 25vh);
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     position: fixed;
     top: 26%;
 }
