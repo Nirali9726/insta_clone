@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper{
+    width:100%;
+    position: relative;
+}
+.page{
+    height:100vh;
+    width:100%;
+    /* background-color: lightgrey; */
+    display: flex;
+}
+.left{
+    height:100%;
+    width: 20%;
+    /* background-color: teal; */
+    position: fixed;
+   
+}
+.right{
+    height:100%;
+    width:calc(100% - 20%);
+    background-color: whitesmoke;
+    position: fixed;
+    right:0;
+}
+.topnav{
+    height:10vh;
+    width:80%;
+    /* background-color: orange; */
+    position:fixed;
+    display: flex;
+    top:0;
+    /* position: relative; */
+}
+.bottomnav{
+    height:15vh;
+    width:100%;
+    /* background-color: lightblue; */
+    position:fixed;
+    top:calc(100% - 90vh);
+}
+.bottomnav p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.topnav .box{
+    
+    height: 100%;
+    width:calc(100% - 50%);
+    /* background-color: greenyellow; */
+}
+
+.stories{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    scrollbar-width: none;
+    margin:3px;
+    padding-left:10px;
+    gap: 4px; 
+} 
+.circle{
+    height: 60px;
+    width:60px;
+    border-radius: 50px;
+    background-color: black;
+    flex-shrink: 0;
+    border: 2px solid rgb(231, 11, 70);
+    background-clip: content-box;
+    /* margin-left: 8px;
+    margin-top: 8px; */
+    padding: 2px;   
+}
+.box input{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 15px;
+}
+.box1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: orange; */
+    gap: 15px;
+    margin-right: 2%;
+}
+
+.box1 i{   
+    font-size: 30px;    
+}
+
+.box1 button{
+    height: 50%;
+    width: 25%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(146, 33, 97);
+    color: white;
+    font-size: 16px;
+    
+}
+.logo{
+    /* background-color:pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo i{
+    font-size: 50px;
+    color:rgb(202, 25, 75);
+    
+   
+}
+.logo h1{
+    color:black;
+    margin: 20px;
+    font-size: 30px;
+
+}
+.profile{
+    height: 22%;
+    width: 100%;
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+   height: 80px;
+    width: 80px;  
+    border-radius: 50%;  
+}
+.profile h1{
+    color:black;
+    font-size: 30px;
+}
+.profile h2{
+    color:black;
+    font-size: 15px;
+}
+.follow{
+    /* height: 6%; */
+    width: 100%;
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.abfollow{
+    width: 100%;
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding: 0 10px;
+}
+.abfollow pre{
+    font-size: 12px;
+    
+}
+.bio{
+    height:10%;
+    width: 100%;
+    padding-top:8px;
+    padding-left: 16px;
+}
+.bio h1{
+    font-size: 18px;
+}
+.bio h2{
+    font-size: 15px;
+    
+}
+.high{
+    /* height: 20%; */
+    width: 100%;
+    /* background-color: turquoise; */
+    /* overflow: auto; */
+    /* scrollbar-width: none; */
+    margin-top: 8px;
+    padding-left:10px;
+}
+.high h1{
+    font-size: 18px;
+    margin-left: 7px;
+    margin-bottom: 4px;
+}
+.c{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    scrollbar-width: none;
+    /* margin:3px; */
+    padding-left:4px;
+    gap: 2px; 
+}
+.scircle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: black;
+    flex-shrink: 0;
+    justify-content: left;
+    border: 2px solid rgb(231, 11, 70);
+    background-clip: content-box; 
+    padding: 2px;   
+    }
+.c-circle{
+   display: flex;
+   flex-direction: column;  
+    }
+.f{
+    display:flex;
+    flex-direction: column;
+    
+    }
+.f i{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.f1{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:57%;
+}
+.f1 h1{
+    font-size: 20px;
+    margin-left: 26px;
+    margin-top: 13px;
+    /* position: absolute; */
+
+}
